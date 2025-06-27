@@ -1,7 +1,8 @@
 class SimpleMath:
     @staticmethod
     def addition(a, b):
-        """
-        Additionne deux valeurs numériques.
-        """
         return a + b
+
+    @staticmethod
+    def soustraction(a, b):
+        return a - b

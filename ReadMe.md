@@ -16,3 +16,9 @@ Commit d'inistalisation vers Github ->
 		- Création d’un workflow `.github/workflows/python-app.yml`
 		- Exécution automatique des tests à chaque `push`
 		- Résultats visibles dans l’onglet "Actions" du dépôt GitHub
+	
+	Ajout de la soustraction 
+		- Ajout d’une méthode `soustraction(a, b)` à la classe `SimpleMath`
+		- Test unitaire `test_soustraction()` ajouté dans la classe `TestSimpleMath`
+		
+
