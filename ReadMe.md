@@ -22,3 +22,6 @@ Commit d'inistalisation vers Github ->
 		- Test unitaire `test_soustraction()` ajouté dans la classe `TestSimpleMath`
 		
 
+	Ajout du lint automatique avec pylint
+	- `pylint` ajouté aux dépendances (`requirements.txt`)
+	- Le workflow CI exécute désormais aussi un **lint** de `simple_math.py` et `test_simple_math.py`
