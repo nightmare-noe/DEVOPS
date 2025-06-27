@@ -11,3 +11,8 @@ Commit d'inistalisation vers Github ->
 	Ajout des classes Python
 		- Création de la classe `SimpleMath` avec une méthode statique `addition(a, b)`
 		- Création de la classe `TestSimpleMath` héritant de `unittest.TestCase`
+
+	Integration des tests dans GitHub Actions
+		- Création d’un workflow `.github/workflows/python-app.yml`
+		- Exécution automatique des tests à chaque `push`
+		- Résultats visibles dans l’onglet "Actions" du dépôt GitHub
