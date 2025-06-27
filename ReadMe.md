@@ -23,5 +23,9 @@ Commit d'inistalisation vers Github ->
 		
 
 	Ajout du lint automatique avec pylint
-	- `pylint` ajouté aux dépendances (`requirements.txt`)
-	- Le workflow CI exécute désormais aussi un **lint** de `simple_math.py` et `test_simple_math.py`
+		- `pylint` ajouté aux dépendances (`requirements.txt`)
+		- Le workflow CI exécute désormais aussi un **lint** de `simple_math.py` et `test_simple_math.py`
+	
+	Mise en Docker de l'application
+		- Création du fichier `Dockerfile`
+		- Ajout d'une étape dans GitHub Actions pour construire l’image Docker

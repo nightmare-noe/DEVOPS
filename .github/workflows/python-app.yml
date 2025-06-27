@@ -26,3 +26,7 @@ jobs:
 
     - name: Lancer les tests
       run: python -m unittest discover
+
+    - name: Build Docker image
+      run: docker build -t tp-ci-cd .
+
